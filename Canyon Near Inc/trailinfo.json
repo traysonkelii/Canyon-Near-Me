@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Apache Trail",
+        "description": "The Apache Trail, also known more officially as Arizona State Route 88, is a 40-mile drive starting in Apache Junction and ending at Theodore Roosevelt Dam. The road is very winding, with switchbacks and sharp turns, so amateur drivers should take caution. Once you reach the end of the trail, you have the option either to turn around and go back the way you came or continue onto the circle route, which takes you back through Globe. (source tripsavvy)",
+        "difficulty": 3,
+        "state":"AZ",
+        "image": "apache-trail"
+    },
+    {
+        "id": 2,
+        "name": "Garden Creek Canyon",
+        "description": "This canyon is easily accessible from Indian Garden campground, 4.6 miles down the Bright Angel Trail from the Grand Canyon South Rim. It's a short canyon, just 0.3 miles, but it requires an 8 mile hike with 4650 feet of elevation gain on the exit hike. It is highly recommended to stop in the shaded picnic area at Indian Gardens to wait until shade or nightfall before finishing the exit hike. There is a small pool at the southernmost picnic table which is nice to keep cool in until the sun goes down. (source rope wiki)",
+        "difficulty": 2,
+        "state": "AZ",
+        "image": "garden-creek"
+    },
+    {
+        "id": 3,
+        "name": "Insomnia Canyon",
+        "description": "Illusions and Insomnia can be combined as a two day combo with 3 vehicles. Leave 2 cars at the canyon exit and drive with one to the top of the canyon, camp there (it's free in BLM land) and start the canyon early the next day, approach will be immediate so you will have more energy and time to enjoy the canyon. Do Illusions the first day, when done take one of the cars you left at the bottom and drive back to camp (still leaving one car at the exit). Next day wake up early and do Insomnia, then use the car you left at the bottom to come back to camp and recover the other 2 vehicles. If you use only 2 cars you will have to drive up and down 3 times to set the shuttle up for the second day, which is a total pain. You may be better off doing the sneak approach (source rope wiki).",
+        "difficulty": 1,
+        "state": "AZ",
+        "image": "insomnia"
+    },
+    {
+        "id": 4,
+        "name": "Fat Man's Misery",
+        "description": "Fat Man’s is the poster child for “hiking with ropes”. This is a long hike with a big handful of short rappels. The canyon hosts short sections of narrows with arches and pools, culminating with a delightful grotto that leads to the East Fork of the Virgin River. A brief walk down the river leads to the exit, which starts out steep and progresses to merely uphill. The climb out can be scorching in summer, so Fat Man's is best reserved for spring or fall. Water can be filtered from the Virgin River. Fat Man’s is delightful when full of water though much less fun in drier conditions (source CUSA)",
+        "difficulty": 3,
+        "state": "UT",
+        "image": "fat-mans-misery"
+    },
+    {
+        "id": 5,
+        "name": "String of Pearls",
+        "description": "Sculpted slot canyon especially enjoyable in Spring or after recent rains, when the water in the pools is clear and fresh. In Summer and Fall the stagnant pools get murky and stinky (source rope wiki)",
+        "difficulty": 2,
+        "state": "NV",
+        "image": "string-of-pearls"
+    },
+    {
+        "id": 6,
+        "name": "The Maze",
+        "description": "Canyoneers familiar with the ethics of bolting in this region recently remediated many bolts in this canyon and reverted rappels back to natural anchors. It would be advisable to possess advanced anchor building skills in line with the rating of this canyon, to avoid bolting this canyon unless an emergency requires it (source rope wiki)",
+        "difficulty": 1,
+        "state": "NV",
+        "image": "the-maze"
+    }
+]

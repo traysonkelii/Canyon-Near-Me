@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		520C44A623AE9696003FF04D /* TrailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520C44A523AE9695003FF04D /* TrailRow.swift */; };
+		523A40A123AFD83A0001AEF2 /* TrailDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523A40A023AFD83A0001AEF2 /* TrailDetail.swift */; };
+		52A9D76B23AC0AD400F0610D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A9D76A23AC0AD400F0610D /* AppDelegate.swift */; };
+		52A9D76D23AC0AD400F0610D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A9D76C23AC0AD400F0610D /* SceneDelegate.swift */; };
+		52A9D77023AC0AD400F0610D /* Canyon_Near_Inc.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52A9D76E23AC0AD400F0610D /* Canyon_Near_Inc.xcdatamodeld */; };
+		52A9D77223AC0AD400F0610D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A9D77123AC0AD400F0610D /* HomeView.swift */; };
+		52A9D77423AC0AD500F0610D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A9D77323AC0AD500F0610D /* Assets.xcassets */; };
+		52A9D77723AC0AD500F0610D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A9D77623AC0AD500F0610D /* Preview Assets.xcassets */; };
+		52A9D77A23AC0AD500F0610D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A9D77823AC0AD500F0610D /* LaunchScreen.storyboard */; };
+		52A9D78223AC0AF900F0610D /* trailinfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 52A9D78123AC0AF900F0610D /* trailinfo.json */; };
+		52A9D78423AC0B2D00F0610D /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A9D78323AC0B2D00F0610D /* Data.swift */; };
+		52A9D78623AC0D4D00F0610D /* Trail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A9D78523AC0D4D00F0610D /* Trail.swift */; };
+		52A9D78A23AD1C2000F0610D /* TrailItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A9D78923AD1C2000F0610D /* TrailItem.swift */; };
+		9756B1D7DB4A8074F5EB8F5A /* Pods_Canyon_Near_Inc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E525EA78B89F0DC652239EA /* Pods_Canyon_Near_Inc.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		520C44A523AE9695003FF04D /* TrailRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailRow.swift; sourceTree = "<group>"; };
+		523A40A023AFD83A0001AEF2 /* TrailDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailDetail.swift; sourceTree = "<group>"; };
+		52A9D76723AC0AD300F0610D /* Canyon Near Inc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Canyon Near Inc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52A9D76A23AC0AD400F0610D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52A9D76C23AC0AD400F0610D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		52A9D76F23AC0AD400F0610D /* Canyon_Near_Inc.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Canyon_Near_Inc.xcdatamodel; sourceTree = "<group>"; };
+		52A9D77123AC0AD400F0610D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		52A9D77323AC0AD500F0610D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52A9D77623AC0AD500F0610D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52A9D77923AC0AD500F0610D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52A9D77B23AC0AD500F0610D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52A9D78123AC0AF900F0610D /* trailinfo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = trailinfo.json; sourceTree = "<group>"; };
+		52A9D78323AC0B2D00F0610D /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		52A9D78523AC0D4D00F0610D /* Trail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trail.swift; sourceTree = "<group>"; };
+		52A9D78923AD1C2000F0610D /* TrailItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailItem.swift; sourceTree = "<group>"; };
+		7E525EA78B89F0DC652239EA /* Pods_Canyon_Near_Inc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Canyon_Near_Inc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82DFFBACBB600893A6E4AE5F /* Pods-Canyon Near Inc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Canyon Near Inc.release.xcconfig"; path = "Target Support Files/Pods-Canyon Near Inc/Pods-Canyon Near Inc.release.xcconfig"; sourceTree = "<group>"; };
+		95D34AD2E40559C1C277FCA5 /* Pods-Canyon Near Inc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Canyon Near Inc.debug.xcconfig"; path = "Target Support Files/Pods-Canyon Near Inc/Pods-Canyon Near Inc.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52A9D76423AC0AD300F0610D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9756B1D7DB4A8074F5EB8F5A /* Pods_Canyon_Near_Inc.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07C3642D5EA60B93E27A8587 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95D34AD2E40559C1C277FCA5 /* Pods-Canyon Near Inc.debug.xcconfig */,
+				82DFFBACBB600893A6E4AE5F /* Pods-Canyon Near Inc.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		52A9D75E23AC0AD300F0610D = {
+			isa = PBXGroup;
+			children = (
+				52A9D76923AC0AD400F0610D /* Canyon Near Inc */,
+				52A9D76823AC0AD300F0610D /* Products */,
+				07C3642D5EA60B93E27A8587 /* Pods */,
+				8A72F19D7CA419F7445D4D01 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		52A9D76823AC0AD300F0610D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52A9D76723AC0AD300F0610D /* Canyon Near Inc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52A9D76923AC0AD400F0610D /* Canyon Near Inc */ = {
+			isa = PBXGroup;
+			children = (
+				52A9D76A23AC0AD400F0610D /* AppDelegate.swift */,
+				52A9D77123AC0AD400F0610D /* HomeView.swift */,
+				52A9D76C23AC0AD400F0610D /* SceneDelegate.swift */,
+				520C44A523AE9695003FF04D /* TrailRow.swift */,
+				523A40A023AFD83A0001AEF2 /* TrailDetail.swift */,
+				52A9D78323AC0B2D00F0610D /* Data.swift */,
+				52A9D78523AC0D4D00F0610D /* Trail.swift */,
+				52A9D78923AD1C2000F0610D /* TrailItem.swift */,
+				52A9D77323AC0AD500F0610D /* Assets.xcassets */,
+				52A9D77823AC0AD500F0610D /* LaunchScreen.storyboard */,
+				52A9D77B23AC0AD500F0610D /* Info.plist */,
+				52A9D78123AC0AF900F0610D /* trailinfo.json */,
+				52A9D76E23AC0AD400F0610D /* Canyon_Near_Inc.xcdatamodeld */,
+				52A9D77523AC0AD500F0610D /* Preview Content */,
+			);
+			path = "Canyon Near Inc";
+			sourceTree = "<group>";
+		};
+		52A9D77523AC0AD500F0610D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				52A9D77623AC0AD500F0610D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8A72F19D7CA419F7445D4D01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E525EA78B89F0DC652239EA /* Pods_Canyon_Near_Inc.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52A9D76623AC0AD300F0610D /* Canyon Near Inc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52A9D77E23AC0AD500F0610D /* Build configuration list for PBXNativeTarget "Canyon Near Inc" */;
+			buildPhases = (
+				6A0C8FA34D1FE4E4708C9F8E /* [CP] Check Pods Manifest.lock */,
+				52A9D76323AC0AD300F0610D /* Sources */,
+				52A9D76423AC0AD300F0610D /* Frameworks */,
+				52A9D76523AC0AD300F0610D /* Resources */,
+				FABAD39F2EBD0250728589AE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Canyon Near Inc";
+			productName = "Canyon Near Inc";
+			productReference = 52A9D76723AC0AD300F0610D /* Canyon Near Inc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52A9D75F23AC0AD300F0610D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Trayson Keli'i";
+				TargetAttributes = {
+					52A9D76623AC0AD300F0610D = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = 52A9D76223AC0AD300F0610D /* Build configuration list for PBXProject "Canyon Near Inc" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52A9D75E23AC0AD300F0610D;
+			productRefGroup = 52A9D76823AC0AD300F0610D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52A9D76623AC0AD300F0610D /* Canyon Near Inc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52A9D76523AC0AD300F0610D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52A9D77A23AC0AD500F0610D /* LaunchScreen.storyboard in Resources */,
+				52A9D77723AC0AD500F0610D /* Preview Assets.xcassets in Resources */,
+				52A9D78223AC0AF900F0610D /* trailinfo.json in Resources */,
+				52A9D77423AC0AD500F0610D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A0C8FA34D1FE4E4708C9F8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Canyon Near Inc-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FABAD39F2EBD0250728589AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Canyon Near Inc/Pods-Canyon Near Inc-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Canyon Near Inc/Pods-Canyon Near Inc-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Canyon Near Inc/Pods-Canyon Near Inc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52A9D76323AC0AD300F0610D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52A9D78A23AD1C2000F0610D /* TrailItem.swift in Sources */,
+				52A9D77023AC0AD400F0610D /* Canyon_Near_Inc.xcdatamodeld in Sources */,
+				523A40A123AFD83A0001AEF2 /* TrailDetail.swift in Sources */,
+				52A9D78423AC0B2D00F0610D /* Data.swift in Sources */,
+				52A9D76B23AC0AD400F0610D /* AppDelegate.swift in Sources */,
+				52A9D77223AC0AD400F0610D /* HomeView.swift in Sources */,
+				520C44A623AE9696003FF04D /* TrailRow.swift in Sources */,
+				52A9D78623AC0D4D00F0610D /* Trail.swift in Sources */,
+				52A9D76D23AC0AD400F0610D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		52A9D77823AC0AD500F0610D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52A9D77923AC0AD500F0610D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52A9D77C23AC0AD500F0610D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52A9D77D23AC0AD500F0610D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52A9D77F23AC0AD500F0610D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95D34AD2E40559C1C277FCA5 /* Pods-Canyon Near Inc.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Canyon Near Inc/Preview Content\"";
+				DEVELOPMENT_TEAM = MUF5T7W34J;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Canyon Near Inc/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.traysonstation.Canyon-Near-Inc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52A9D78023AC0AD500F0610D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82DFFBACBB600893A6E4AE5F /* Pods-Canyon Near Inc.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Canyon Near Inc/Preview Content\"";
+				DEVELOPMENT_TEAM = MUF5T7W34J;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Canyon Near Inc/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.traysonstation.Canyon-Near-Inc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52A9D76223AC0AD300F0610D /* Build configuration list for PBXProject "Canyon Near Inc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52A9D77C23AC0AD500F0610D /* Debug */,
+				52A9D77D23AC0AD500F0610D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52A9D77E23AC0AD500F0610D /* Build configuration list for PBXNativeTarget "Canyon Near Inc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52A9D77F23AC0AD500F0610D /* Debug */,
+				52A9D78023AC0AD500F0610D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		52A9D76E23AC0AD400F0610D /* Canyon_Near_Inc.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				52A9D76F23AC0AD400F0610D /* Canyon_Near_Inc.xcdatamodel */,
+			);
+			currentVersion = 52A9D76F23AC0AD400F0610D /* Canyon_Near_Inc.xcdatamodel */;
+			path = Canyon_Near_Inc.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 52A9D75F23AC0AD300F0610D /* Project object */;
+}
