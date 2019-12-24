@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D02CC3E4A54B3C2A40240F6 /* Pods_Canyon_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4FF05C237708DA0F931DFAB /* Pods_Canyon_Project.framework */; };
 		520C44A623AE9696003FF04D /* TrailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520C44A523AE9695003FF04D /* TrailRow.swift */; };
+		5217444623B1B7B10040179F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5217444523B1B7B10040179F /* Default-568h@2x.png */; };
 		523A40A123AFD83A0001AEF2 /* TrailDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523A40A023AFD83A0001AEF2 /* TrailDetail.swift */; };
 		52A9D76B23AC0AD400F0610D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A9D76A23AC0AD400F0610D /* AppDelegate.swift */; };
 		52A9D76D23AC0AD400F0610D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A9D76C23AC0AD400F0610D /* SceneDelegate.swift */; };
@@ -20,13 +22,14 @@
 		52A9D78423AC0B2D00F0610D /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A9D78323AC0B2D00F0610D /* Data.swift */; };
 		52A9D78623AC0D4D00F0610D /* Trail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A9D78523AC0D4D00F0610D /* Trail.swift */; };
 		52A9D78A23AD1C2000F0610D /* TrailItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A9D78923AD1C2000F0610D /* TrailItem.swift */; };
-		9756B1D7DB4A8074F5EB8F5A /* Pods_Canyon_Near_Inc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E525EA78B89F0DC652239EA /* Pods_Canyon_Near_Inc.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14AA6FD329281B07029850D8 /* Pods-Canyon Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Canyon Project.debug.xcconfig"; path = "Target Support Files/Pods-Canyon Project/Pods-Canyon Project.debug.xcconfig"; sourceTree = "<group>"; };
 		520C44A523AE9695003FF04D /* TrailRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailRow.swift; sourceTree = "<group>"; };
+		5217444523B1B7B10040179F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		523A40A023AFD83A0001AEF2 /* TrailDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailDetail.swift; sourceTree = "<group>"; };
-		52A9D76723AC0AD300F0610D /* Canyon Near Inc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Canyon Near Inc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52A9D76723AC0AD300F0610D /* Canyon Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Canyon Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52A9D76A23AC0AD400F0610D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52A9D76C23AC0AD400F0610D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		52A9D76F23AC0AD400F0610D /* Canyon_Near_Inc.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Canyon_Near_Inc.xcdatamodel; sourceTree = "<group>"; };
@@ -39,9 +42,10 @@
 		52A9D78323AC0B2D00F0610D /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		52A9D78523AC0D4D00F0610D /* Trail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trail.swift; sourceTree = "<group>"; };
 		52A9D78923AD1C2000F0610D /* TrailItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailItem.swift; sourceTree = "<group>"; };
-		7E525EA78B89F0DC652239EA /* Pods_Canyon_Near_Inc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Canyon_Near_Inc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82DFFBACBB600893A6E4AE5F /* Pods-Canyon Near Inc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Canyon Near Inc.release.xcconfig"; path = "Target Support Files/Pods-Canyon Near Inc/Pods-Canyon Near Inc.release.xcconfig"; sourceTree = "<group>"; };
 		95D34AD2E40559C1C277FCA5 /* Pods-Canyon Near Inc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Canyon Near Inc.debug.xcconfig"; path = "Target Support Files/Pods-Canyon Near Inc/Pods-Canyon Near Inc.debug.xcconfig"; sourceTree = "<group>"; };
+		A6D81FBAE576BA8D68385B21 /* Pods-Canyon Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Canyon Project.release.xcconfig"; path = "Target Support Files/Pods-Canyon Project/Pods-Canyon Project.release.xcconfig"; sourceTree = "<group>"; };
+		E4FF05C237708DA0F931DFAB /* Pods_Canyon_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Canyon_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9756B1D7DB4A8074F5EB8F5A /* Pods_Canyon_Near_Inc.framework in Frameworks */,
+				0D02CC3E4A54B3C2A40240F6 /* Pods_Canyon_Project.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +65,8 @@
 			children = (
 				95D34AD2E40559C1C277FCA5 /* Pods-Canyon Near Inc.debug.xcconfig */,
 				82DFFBACBB600893A6E4AE5F /* Pods-Canyon Near Inc.release.xcconfig */,
+				14AA6FD329281B07029850D8 /* Pods-Canyon Project.debug.xcconfig */,
+				A6D81FBAE576BA8D68385B21 /* Pods-Canyon Project.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -68,7 +74,8 @@
 		52A9D75E23AC0AD300F0610D = {
 			isa = PBXGroup;
 			children = (
-				52A9D76923AC0AD400F0610D /* Canyon Near Inc */,
+				5217444523B1B7B10040179F /* Default-568h@2x.png */,
+				52A9D76923AC0AD400F0610D /* Canyon Project */,
 				52A9D76823AC0AD300F0610D /* Products */,
 				07C3642D5EA60B93E27A8587 /* Pods */,
 				8A72F19D7CA419F7445D4D01 /* Frameworks */,
@@ -78,12 +85,12 @@
 		52A9D76823AC0AD300F0610D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				52A9D76723AC0AD300F0610D /* Canyon Near Inc.app */,
+				52A9D76723AC0AD300F0610D /* Canyon Project.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		52A9D76923AC0AD400F0610D /* Canyon Near Inc */ = {
+		52A9D76923AC0AD400F0610D /* Canyon Project */ = {
 			isa = PBXGroup;
 			children = (
 				52A9D76A23AC0AD400F0610D /* AppDelegate.swift */,
@@ -101,7 +108,7 @@
 				52A9D76E23AC0AD400F0610D /* Canyon_Near_Inc.xcdatamodeld */,
 				52A9D77523AC0AD500F0610D /* Preview Content */,
 			);
-			path = "Canyon Near Inc";
+			path = "Canyon Project";
 			sourceTree = "<group>";
 		};
 		52A9D77523AC0AD500F0610D /* Preview Content */ = {
@@ -115,7 +122,7 @@
 		8A72F19D7CA419F7445D4D01 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7E525EA78B89F0DC652239EA /* Pods_Canyon_Near_Inc.framework */,
+				E4FF05C237708DA0F931DFAB /* Pods_Canyon_Project.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -123,9 +130,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		52A9D76623AC0AD300F0610D /* Canyon Near Inc */ = {
+		52A9D76623AC0AD300F0610D /* Canyon Project */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52A9D77E23AC0AD500F0610D /* Build configuration list for PBXNativeTarget "Canyon Near Inc" */;
+			buildConfigurationList = 52A9D77E23AC0AD500F0610D /* Build configuration list for PBXNativeTarget "Canyon Project" */;
 			buildPhases = (
 				6A0C8FA34D1FE4E4708C9F8E /* [CP] Check Pods Manifest.lock */,
 				52A9D76323AC0AD300F0610D /* Sources */,
@@ -137,9 +144,9 @@
 			);
 			dependencies = (
 			);
-			name = "Canyon Near Inc";
+			name = "Canyon Project";
 			productName = "Canyon Near Inc";
-			productReference = 52A9D76723AC0AD300F0610D /* Canyon Near Inc.app */;
+			productReference = 52A9D76723AC0AD300F0610D /* Canyon Project.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -157,7 +164,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 52A9D76223AC0AD300F0610D /* Build configuration list for PBXProject "Canyon Near Inc" */;
+			buildConfigurationList = 52A9D76223AC0AD300F0610D /* Build configuration list for PBXProject "Canyon Project" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -170,7 +177,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				52A9D76623AC0AD300F0610D /* Canyon Near Inc */,
+				52A9D76623AC0AD300F0610D /* Canyon Project */,
 			);
 		};
 /* End PBXProject section */
@@ -183,6 +190,7 @@
 				52A9D77A23AC0AD500F0610D /* LaunchScreen.storyboard in Resources */,
 				52A9D77723AC0AD500F0610D /* Preview Assets.xcassets in Resources */,
 				52A9D78223AC0AF900F0610D /* trailinfo.json in Resources */,
+				5217444623B1B7B10040179F /* Default-568h@2x.png in Resources */,
 				52A9D77423AC0AD500F0610D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,7 +213,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Canyon Near Inc-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Canyon Project-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -218,15 +226,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Canyon Near Inc/Pods-Canyon Near Inc-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Canyon Project/Pods-Canyon Project-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Canyon Near Inc/Pods-Canyon Near Inc-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Canyon Project/Pods-Canyon Project-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Canyon Near Inc/Pods-Canyon Near Inc-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Canyon Project/Pods-Canyon Project-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -378,20 +386,20 @@
 		};
 		52A9D77F23AC0AD500F0610D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95D34AD2E40559C1C277FCA5 /* Pods-Canyon Near Inc.debug.xcconfig */;
+			baseConfigurationReference = 14AA6FD329281B07029850D8 /* Pods-Canyon Project.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Canyon Near Inc/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Canyon Project/Preview Content\"";
 				DEVELOPMENT_TEAM = MUF5T7W34J;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Canyon Near Inc/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Canyon Project/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.traysonstation.Canyon-Near-Inc";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.traysonstation.Canyon-Project";
+				PRODUCT_NAME = "Canyon Project";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -399,20 +407,20 @@
 		};
 		52A9D78023AC0AD500F0610D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82DFFBACBB600893A6E4AE5F /* Pods-Canyon Near Inc.release.xcconfig */;
+			baseConfigurationReference = A6D81FBAE576BA8D68385B21 /* Pods-Canyon Project.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Canyon Near Inc/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Canyon Project/Preview Content\"";
 				DEVELOPMENT_TEAM = MUF5T7W34J;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Canyon Near Inc/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Canyon Project/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.traysonstation.Canyon-Near-Inc";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.traysonstation.Canyon-Project";
+				PRODUCT_NAME = "Canyon Project";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -421,7 +429,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		52A9D76223AC0AD300F0610D /* Build configuration list for PBXProject "Canyon Near Inc" */ = {
+		52A9D76223AC0AD300F0610D /* Build configuration list for PBXProject "Canyon Project" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52A9D77C23AC0AD500F0610D /* Debug */,
@@ -430,7 +438,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52A9D77E23AC0AD500F0610D /* Build configuration list for PBXNativeTarget "Canyon Near Inc" */ = {
+		52A9D77E23AC0AD500F0610D /* Build configuration list for PBXNativeTarget "Canyon Project" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52A9D77F23AC0AD500F0610D /* Debug */,
