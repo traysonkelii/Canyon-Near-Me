@@ -19,9 +19,10 @@ struct HomeView: View {
     
     var body: some View {
         NavigationView{
-            VStack {
-                Text("Canyon Near Me")
+            VStack() {
+                Text("Canyon Project")
                     .bold()
+                    .font(.title)
                 
                 ScrollView{
                     TrailRow( categoryName: "Arizona",trails: self.categories["AZ"]!)
@@ -29,7 +30,6 @@ struct HomeView: View {
                     TrailRow( categoryName: "Utah",trails: self.categories["UT"]!)
                 }
             }
-            
         }
     }
 }

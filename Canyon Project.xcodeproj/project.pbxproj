@@ -10,6 +10,7 @@
 		0D02CC3E4A54B3C2A40240F6 /* Pods_Canyon_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4FF05C237708DA0F931DFAB /* Pods_Canyon_Project.framework */; };
 		520C44A623AE9696003FF04D /* TrailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520C44A523AE9695003FF04D /* TrailRow.swift */; };
 		5217444623B1B7B10040179F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5217444523B1B7B10040179F /* Default-568h@2x.png */; };
+		5217444823B1BBEF0040179F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5217444723B1BBEF0040179F /* MapView.swift */; };
 		523A40A123AFD83A0001AEF2 /* TrailDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523A40A023AFD83A0001AEF2 /* TrailDetail.swift */; };
 		52A9D76B23AC0AD400F0610D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A9D76A23AC0AD400F0610D /* AppDelegate.swift */; };
 		52A9D76D23AC0AD400F0610D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A9D76C23AC0AD400F0610D /* SceneDelegate.swift */; };
@@ -28,6 +29,7 @@
 		14AA6FD329281B07029850D8 /* Pods-Canyon Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Canyon Project.debug.xcconfig"; path = "Target Support Files/Pods-Canyon Project/Pods-Canyon Project.debug.xcconfig"; sourceTree = "<group>"; };
 		520C44A523AE9695003FF04D /* TrailRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailRow.swift; sourceTree = "<group>"; };
 		5217444523B1B7B10040179F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5217444723B1BBEF0040179F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		523A40A023AFD83A0001AEF2 /* TrailDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailDetail.swift; sourceTree = "<group>"; };
 		52A9D76723AC0AD300F0610D /* Canyon Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Canyon Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52A9D76A23AC0AD400F0610D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 			children = (
 				52A9D76A23AC0AD400F0610D /* AppDelegate.swift */,
 				52A9D77123AC0AD400F0610D /* HomeView.swift */,
+				5217444723B1BBEF0040179F /* MapView.swift */,
 				52A9D76C23AC0AD400F0610D /* SceneDelegate.swift */,
 				520C44A523AE9695003FF04D /* TrailRow.swift */,
 				523A40A023AFD83A0001AEF2 /* TrailDetail.swift */,
@@ -251,6 +254,7 @@
 				52A9D76B23AC0AD400F0610D /* AppDelegate.swift in Sources */,
 				52A9D77223AC0AD400F0610D /* HomeView.swift in Sources */,
 				520C44A623AE9696003FF04D /* TrailRow.swift in Sources */,
+				5217444823B1BBEF0040179F /* MapView.swift in Sources */,
 				52A9D78623AC0D4D00F0610D /* Trail.swift in Sources */,
 				52A9D76D23AC0AD400F0610D /* SceneDelegate.swift in Sources */,
 			);

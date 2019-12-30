@@ -6,7 +6,8 @@ target 'Canyon Project' do
   use_frameworks!
   
 
-  # Pods for Canyon Near Inc
+  # Pods for Canyon Project
   pod 'Willow', '~> 5.0'
+  pod 'Mapbox-iOS-SDK', '~> 5.6'
 
 end

@@ -45,7 +45,7 @@ struct TrailDetail: View {
                 
                 HStack {
                     Spacer()
-                    ActionButton()
+                    ActionButton(trail: trail)
                     Spacer()
                 }.padding(.top)
             }
@@ -54,14 +54,24 @@ struct TrailDetail: View {
 }
 
 struct ActionButton : View {
+    var trail: Trail
     var body: some View {
-        Button(action: {}){
-            Text("Hike Details")
-        }.frame(width: 200, height:50)
-            .foregroundColor(Color.white)
-            .font(.headline)
-            .background(Color.blue)
-            .cornerRadius(10)
+        NavigationLink(destination: MapView()
+            .centerCoordinate(.init(latitude: trail.coordinates[0][1], longitude: trail.coordinates[0][0]))
+            .zoomLevel(16)
+            .styleURL(URL(string: "mapbox://styles/mapbox/outdoors-v11")!)
+        ){
+            Spacer()
+            Button(action:{}){
+                Text("Go to map")
+            }.frame(width: 200, height:50)
+                .foregroundColor(Color.white)
+                .font(.headline)
+                .background(Color.blue)
+                .cornerRadius(10)
+            Spacer()
+        }
+        
     }
 }
 

@@ -15,6 +15,7 @@ struct Trail: Hashable, Codable, Identifiable {
     var difficulty:Difficulty
     var state: State
     var image:String
+    var coordinates: [[Double]] = []
     
     enum Difficulty: Int, CaseIterable, Codable, Hashable {
         case easy = 1
