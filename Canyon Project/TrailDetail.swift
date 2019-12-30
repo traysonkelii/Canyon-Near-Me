@@ -7,6 +7,7 @@
 //
 
 import SwiftUI
+import Mapbox
 
 struct TrailDetail: View {
     
@@ -55,8 +56,9 @@ struct TrailDetail: View {
 
 struct ActionButton : View {
     var trail: Trail
+    
     var body: some View {
-        NavigationLink(destination: MapView()
+        NavigationLink(destination: MapView(coordinates: trail.coordinates)
             .centerCoordinate(.init(latitude: trail.coordinates[0][1], longitude: trail.coordinates[0][0]))
             .zoomLevel(16)
             .styleURL(URL(string: "mapbox://styles/mapbox/outdoors-v11")!)
