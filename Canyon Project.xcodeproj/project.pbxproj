@@ -12,6 +12,7 @@
 		5217444623B1B7B10040179F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5217444523B1B7B10040179F /* Default-568h@2x.png */; };
 		5217444823B1BBEF0040179F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5217444723B1BBEF0040179F /* MapView.swift */; };
 		523A40A123AFD83A0001AEF2 /* TrailDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523A40A023AFD83A0001AEF2 /* TrailDetail.swift */; };
+		5258561223BBF024001470D5 /* NavigationMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5258561123BBF023001470D5 /* NavigationMapView.swift */; };
 		52A9D76B23AC0AD400F0610D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A9D76A23AC0AD400F0610D /* AppDelegate.swift */; };
 		52A9D76D23AC0AD400F0610D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A9D76C23AC0AD400F0610D /* SceneDelegate.swift */; };
 		52A9D77023AC0AD400F0610D /* Canyon_Near_Inc.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52A9D76E23AC0AD400F0610D /* Canyon_Near_Inc.xcdatamodeld */; };
@@ -31,6 +32,7 @@
 		5217444523B1B7B10040179F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		5217444723B1BBEF0040179F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		523A40A023AFD83A0001AEF2 /* TrailDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailDetail.swift; sourceTree = "<group>"; };
+		5258561123BBF023001470D5 /* NavigationMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationMapView.swift; sourceTree = "<group>"; };
 		52A9D76723AC0AD300F0610D /* Canyon Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Canyon Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52A9D76A23AC0AD400F0610D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52A9D76C23AC0AD400F0610D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,8 +46,6 @@
 		52A9D78323AC0B2D00F0610D /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		52A9D78523AC0D4D00F0610D /* Trail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trail.swift; sourceTree = "<group>"; };
 		52A9D78923AD1C2000F0610D /* TrailItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailItem.swift; sourceTree = "<group>"; };
-		82DFFBACBB600893A6E4AE5F /* Pods-Canyon Near Inc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Canyon Near Inc.release.xcconfig"; path = "Target Support Files/Pods-Canyon Near Inc/Pods-Canyon Near Inc.release.xcconfig"; sourceTree = "<group>"; };
-		95D34AD2E40559C1C277FCA5 /* Pods-Canyon Near Inc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Canyon Near Inc.debug.xcconfig"; path = "Target Support Files/Pods-Canyon Near Inc/Pods-Canyon Near Inc.debug.xcconfig"; sourceTree = "<group>"; };
 		A6D81FBAE576BA8D68385B21 /* Pods-Canyon Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Canyon Project.release.xcconfig"; path = "Target Support Files/Pods-Canyon Project/Pods-Canyon Project.release.xcconfig"; sourceTree = "<group>"; };
 		E4FF05C237708DA0F931DFAB /* Pods_Canyon_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Canyon_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -65,8 +65,6 @@
 		07C3642D5EA60B93E27A8587 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				95D34AD2E40559C1C277FCA5 /* Pods-Canyon Near Inc.debug.xcconfig */,
-				82DFFBACBB600893A6E4AE5F /* Pods-Canyon Near Inc.release.xcconfig */,
 				14AA6FD329281B07029850D8 /* Pods-Canyon Project.debug.xcconfig */,
 				A6D81FBAE576BA8D68385B21 /* Pods-Canyon Project.release.xcconfig */,
 			);
@@ -98,6 +96,7 @@
 				52A9D76A23AC0AD400F0610D /* AppDelegate.swift */,
 				52A9D77123AC0AD400F0610D /* HomeView.swift */,
 				5217444723B1BBEF0040179F /* MapView.swift */,
+				5258561123BBF023001470D5 /* NavigationMapView.swift */,
 				52A9D76C23AC0AD400F0610D /* SceneDelegate.swift */,
 				520C44A523AE9695003FF04D /* TrailRow.swift */,
 				523A40A023AFD83A0001AEF2 /* TrailDetail.swift */,
@@ -142,6 +141,7 @@
 				52A9D76423AC0AD300F0610D /* Frameworks */,
 				52A9D76523AC0AD300F0610D /* Resources */,
 				FABAD39F2EBD0250728589AE /* [CP] Embed Pods Frameworks */,
+				D0AE3FC532537B38389A748C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -223,6 +223,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		D0AE3FC532537B38389A748C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Canyon Project/Pods-Canyon Project-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Canyon Project/Pods-Canyon Project-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Canyon Project/Pods-Canyon Project-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		FABAD39F2EBD0250728589AE /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -257,6 +274,7 @@
 				5217444823B1BBEF0040179F /* MapView.swift in Sources */,
 				52A9D78623AC0D4D00F0610D /* Trail.swift in Sources */,
 				52A9D76D23AC0AD400F0610D /* SceneDelegate.swift in Sources */,
+				5258561223BBF024001470D5 /* NavigationMapView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

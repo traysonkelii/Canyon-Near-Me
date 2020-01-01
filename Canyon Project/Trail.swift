@@ -6,6 +6,12 @@
 //  Copyright © 2019 Trayson Keli'i. All rights reserved.
 //
 
+/**
+ "entryDescription": "Entry Description",
+    "middleDescription": "Middle Description",
+    "exitDescription": "Exit Description",
+ */
+
 import SwiftUI
 
 struct Trail: Hashable, Codable, Identifiable {
@@ -13,9 +19,20 @@ struct Trail: Hashable, Codable, Identifiable {
     var name:String
     var description:String
     var difficulty:Difficulty
-    var state: State
+    var state:State
     var image:String
-    var coordinates: [[Double]] = []
+    var coordinates:[[Double]]
+    var rating: String
+    var hikeLength:String
+    var rappelNumber:Int
+    var tallestRappel:Int
+    var seasonsAvailable:[String]
+    var gearRequired:String
+    var specialInstructionDescription:String
+    var entryDescription:String
+    var middleDescription:String
+    var exitDescription:String
+    var permit:String
     
     enum Difficulty: Int, CaseIterable, Codable, Hashable {
         case easy = 1

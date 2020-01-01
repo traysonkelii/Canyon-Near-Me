@@ -7,7 +7,8 @@ target 'Canyon Project' do
   
 
   # Pods for Canyon Project
-  pod 'Willow', '~> 5.0'
   pod 'Mapbox-iOS-SDK', '~> 5.6'
+  pod 'GoogleMaps'
+  pod 'GooglePlaces'
 
 end

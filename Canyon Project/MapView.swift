@@ -22,6 +22,7 @@ struct MapView: UIViewRepresentable {
     }
     
     private func updateAnnotations() {
+        
         let coordinates = buildMGLPoints()
         if let currentAnnotations = mapView.annotations {
             mapView.removeAnnotations(currentAnnotations)
@@ -30,6 +31,7 @@ struct MapView: UIViewRepresentable {
     }
     
     private func buildMGLPoints() -> [MGLPointAnnotation] {
+        mapView.showsUserLocation = true
         var newAnnotation: [MGLPointAnnotation] = []
         for coord in self.coordinates {
             newAnnotation.append(MGLPointAnnotation(title: "trail", coordinate: .init(latitude: coord[1], longitude: coord[0])))

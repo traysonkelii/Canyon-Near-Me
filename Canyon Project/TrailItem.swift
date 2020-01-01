@@ -13,7 +13,7 @@ struct TrailItem: View {
     var trail:Trail
     
     var body: some View {
-        VStack(alignment: .leading, spacing: 16.0) {
+        VStack(alignment: .leading, spacing: 5.0) {
             Image(trail.image)
                 .resizable()
                 .renderingMode(.original)
@@ -22,17 +22,24 @@ struct TrailItem: View {
                 .cornerRadius(10)
                 .shadow(radius: 10)
             
-            VStack(alignment: .leading, spacing: 5.0){
+            VStack(alignment: .leading){
                 Text(trail.name)
                     .foregroundColor(.primary)
                     .font(.headline)
                 
-                Text(trail.description)
+                Text("Length: \(trail.hikeLength) hours")
                     .foregroundColor(.secondary)
                     .font(.subheadline)
                     .multilineTextAlignment(.leading)
                     .lineLimit(2)
-                    .frame(height: 40)
+                    .frame(height: 20)
+                
+                Text("Rating: \(trail.rating)")
+                    .foregroundColor(.secondary)
+                    .font(.subheadline)
+                    .multilineTextAlignment(.leading)
+                    .lineLimit(2)
+                    .frame(height: 20)
             }
         }
     }

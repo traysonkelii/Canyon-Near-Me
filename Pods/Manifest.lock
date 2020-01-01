@@ -1,24 +1,33 @@
 PODS:
+  - GoogleMaps (3.7.0):
+    - GoogleMaps/Maps (= 3.7.0)
+  - GoogleMaps/Base (3.7.0)
+  - GoogleMaps/Maps (3.7.0):
+    - GoogleMaps/Base
+  - GooglePlaces (3.7.0):
+    - GoogleMaps/Base (= 3.7.0)
   - Mapbox-iOS-SDK (5.6.0):
     - MapboxMobileEvents (= 0.10.2)
   - MapboxMobileEvents (0.10.2)
-  - Willow (5.2.1)
 
 DEPENDENCIES:
+  - GoogleMaps
+  - GooglePlaces
   - Mapbox-iOS-SDK (~> 5.6)
-  - Willow (~> 5.0)
 
 SPEC REPOS:
   trunk:
+    - GoogleMaps
+    - GooglePlaces
     - Mapbox-iOS-SDK
     - MapboxMobileEvents
-    - Willow
 
 SPEC CHECKSUMS:
+  GoogleMaps: 55da829c68aa931f3ae982b9e341cc2f3d89c587
+  GooglePlaces: a62077320f9d64239245af63aa1aa136393ebeb6
   Mapbox-iOS-SDK: 913c4655bd72a200f84996caf7a755b377abc77f
   MapboxMobileEvents: 2bc0ca2eedb627b73cf403258dce2b2fa98074a6
-  Willow: a6310f9aedcb6f4de8c35b94fd3416a660ae9280
 
-PODFILE CHECKSUM: cc38896a7e7c691bb31a609164b11ff132781dbd
+PODFILE CHECKSUM: 97907db260fb719b13165e6e82b61c65ebaa724c
 
 COCOAPODS: 1.8.4
